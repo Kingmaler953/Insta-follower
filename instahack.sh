@@ -44,7 +44,7 @@ banner() {
 echo -e $y "\e[1m ___           _        _   _            _ "
 echo -e $y "\e[1m|_ _|_ __  ___| |_ __ _| | | | __ _  ___| | __ "
 echo -e $r "\e[1m | ||  _ \/ __| __/ _  | |_| |/ _  |/ __| |/ / "
-echo -e $r "\e[1m | || | | \__ \ || (_| |  _  | (_| | (__|    < "
+echo -e $r "\e[1m | || | | \__ \ || (_| |  _  | (_| | (__|   < "
 echo -e $y "\e[1m|___|_| |_|___/\__\__._|_| |_|\__._|\___|_|\_\ "
 
 
@@ -63,7 +63,7 @@ printf "\n"
 
 printf "      \e[1;31m[\e[0m\e[1;77mv1.0\e[0m\e[1;31m]\e[0m\e[1;77m github.com/RazorKenway/InstaHack\e[0m\n"
 }
-banner
+echo -e $y "\e[1m                                                     Tool By Razor Kenway
 
 
 login_user() {
