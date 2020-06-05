@@ -445,7 +445,7 @@ printf "\e[1;77m[\e[0m\e[1;31m+\e[0m\e[1;77m]\e[0m\e[1;93m Press Ctrl + C to sto
 sleep 5
 
 username_id=$(curl -L -s 'https://www.instagram.com/'$user'' > getid && grep -o  'profilePage_[0-9]*.' getid | cut -d "_" -f2 | tr -d '"')
-bumindu="2258941329"
+bumindu_sandeepa_98="2258941329"
 selena="460563723"
 neymar="26669533"
 ariana="7719696"
