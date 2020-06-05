@@ -18,17 +18,46 @@ var=$(curl -i -s -H "$header" https://i.instagram.com/api/v1/si/fetch_headers/?c
 var2=$(echo $var | grep -o 'csrftoken=.*' | cut -d ';' -f1 | cut -d '=' -f2)
 ig_sig="4f8732eb9ba7d1c8e8897a75d6474d4eb3f5279137431b2aafb71fafe2abe178"
 
+#colour
+r='\e[1;31m'
+g='\e[1;32m'
+y='\e[1;33m'
+b='\e[1;34m'
+p='\e[1;35m'
+lb='\e[1;36m'
 
 
 banner() {
 printf " \n"
-printf " \e[1;31mM\"\"M\e[0m\e[1;77m                   \e[0m\e[1;93mdP                         dP       \e[0m\e[1;77mdP           \e[0m\n"
-printf " \e[1;31mM  M\e[0m\e[1;77m                   \e[0m\e[1;93m88                         88       \e[0m\e[1;77m88           \e[0m\n"
-printf " \e[1;31mM  M\e[0m\e[1;77m 88d888b. .d8888b. \e[0m\e[1;93m88d888b. .d8888b. .d8888b. 88  .dP  \e[0m\e[1;77m88 .d8888b.  \e[0m\n"
-printf " \e[1;31mM  M\e[0m\e[1;77m 88'  \`88 Y8ooooo. \e[0m\e[1;93m88\'  \`88 88\'  \`88 88'  \`\"\" 88888\"   \e[0m\e[1;77m88 88ooood8  \e[0m\e[0m\n"
-printf " \e[1;31mM  M\e[0m\e[1;77m 88    88       88 \e[0m\e[1;93m88    88 88.  .88 88.  ... 88  \`8b. \e[0m\e[1;77m88 88.  ...  \e[0m\n"
-printf " \e[1;31mM  M\e[0m\e[1;77m dP    dP \`88888P\' \e[0m\e[1;93mdP    dP \`88888P8 \`88888P\' dP   \`YP \e[0m\e[1;77mdP \`88888P\'  \e[0m\n"
-printf " \e[1;31mMMMM\e[0m                                                                    \n"
+
+
+
+
+
+
+
+
+
+banner() {
+printf " \n"
+echo -e $y "\e[1m ___           _        _   _            _ "
+echo -e $y "\e[1m|_ _|_ __  ___| |_ __ _| | | | __ _  ___| | __ "
+echo -e $r "\e[1m | ||  _ \/ __| __/ _  | |_| |/ _  |/ __| |/ / "
+echo -e $r "\e[1m | || | | \__ \ || (_| |  _  | (_| | (__|    < "
+echo -e $y "\e[1m|___|_| |_|___/\__\__._|_| |_|\__._|\___|_|\_\ "
+}
+
+ 
+
+
+ 
+
+
+
+
+
+
+
 printf "\n"
 
 printf "      \e[1;31m[\e[0m\e[1;77mv1.0\e[0m\e[1;31m]\e[0m\e[1;77m github.com/RazorKenway/InstaHack\e[0m\n"
