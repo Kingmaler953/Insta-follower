@@ -1,6 +1,12 @@
 # InstaHack
 Welcome To SL Android Youtube Channel
 
+git clone https://github.com/RazorKenway/InstaHack.git
+cd instahack
+bash instahack.sh
+
+
+
                                     💢 Disclaimer 💢
 
 SL ANDROID  Channel Doesn't Promote & Encourage Any illegal Activities, 
